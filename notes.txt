@@ -126,3 +126,34 @@ ohare = [row for row in fail if row['Address'].startswith('11601 W TOUHY')]
 
 ohare[1]['Violations'].split('|').strip()
     creates a list of individual violations without whitespace
+
+
+
+MY STUFF
+import csv
+imdb = list(csv.DictReader(open('movie_metadata.csv')))
+len(imdb)
+len(imdb[0])
+imdb[0]
+{row['aspect_ratio'] for row in imdb}
+budget = [row['budget'] for row in imdb if row['country'] == 'USA']
+imdb_score = [row['imdb_score'] for row in imdb if row['country'] == 'USA']
+
+clean_budget = []
+clean_imdb = []
+for b,i in zip(budget, imdb_score):
+    if (b != '') and (i != ''):
+        clean_budget.append(float(b))
+        clean_imdb.append(float(i))
+
+import matplotlib.pyplot as plt
+plt.scatter(clean_budget, clean_imdb)
+
+Mkay, so we can do interesting data exploration with the
+dictionary thing, but for the plotting we should restrict it to
+the numerical data.
+
+Interesting note: the average IMDB score is > 5.
+Interesting note: make sure that we check country = USA.
+
+rithmschool.com
