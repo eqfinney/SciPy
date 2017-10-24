@@ -3,8 +3,8 @@ Author: Emily Quinn Finney
 
 These are the Jupyter notebooks and cleaned data sets I used to teach the 
 Teen Track tutorial at the SciPy 2017 conference in Austin, TX 
-(https://scipy2017.scipy.org/ehome/index.php?eventid=220975&). Tutorial
-notebooks cover topics such as program flow, NumPy arrays, functions, and data visualization.
+(https://scipy2017.scipy.org/ehome/220975/531230/). Tutorial notebooks cover 
+topics such as program flow, NumPy arrays, functions, and data visualization.
 
 Data sets were obtained from Kaggle 
 (https://www.kaggle.com/suchitgupta60/imdb-data) and subsequently cleaned for 
