@@ -1,9 +1,9 @@
-## SciPy 2017 Teen Track Tutorial Curriculum
+## SciPy 2018 Teen Track Tutorial Curriculum
 Author: Emily Quinn Finney
 
 These are the Jupyter notebooks and cleaned data sets I used to teach the 
-Teen Track tutorial at the SciPy 2017 conference in Austin, TX 
-(https://scipy2017.scipy.org/ehome/220975/531230/). Tutorial notebooks cover 
+Teen Track tutorial at the SciPy 2018 conference in Austin, TX 
+(https://scipy2018.scipy.org/ehome/299527/648144/). Tutorial notebooks cover 
 topics such as program flow, NumPy arrays, functions, and data visualization.
 
 Data sets were obtained from Kaggle 
@@ -34,4 +34,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Last edited 10/24/2017
+Last edited 07/09/2018
